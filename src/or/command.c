@@ -679,3 +679,4 @@ command_process_netinfo_cell(cell_t *cell, or_connection_t *conn)
              conn->_base.port, (int)conn->link_proto);
   assert_connection_ok(TO_CONN(conn),time(NULL));
 }
+
